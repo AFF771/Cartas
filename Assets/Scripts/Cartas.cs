@@ -19,7 +19,7 @@ public class Cartas : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            int posicaoNumero = Random.Range(1, 13);
+            int posicaoNumero = Random.Range(0, 13);
             int posicaoNipe = Random.Range(1, 4);
 
             Debug.Log("Saiu " + numero[posicaoNumero] + " de " + nipe[posicaoNipe] + ".");
